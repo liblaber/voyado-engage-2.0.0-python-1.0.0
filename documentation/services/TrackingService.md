@@ -13,7 +13,7 @@ Request model:
 - ContactId: Contact id of the cart owner. GUID or short GUID. Ex: "ae16a9b4-f581-4568-8948-a96100b2afd4"
 - Language: Culture code of the cart. A corresponding product feed should be configured. Ex: "sv-SE"
 - Url: Url to the cart. Ex: "https://www.store.se/cart?id=006788ba-9f65-49c6-b3a0-2315d1854728"
-- Items: Collection of cart items. Ex: "[{"Sku":"90183744","Quantity":1},{"Sku":"90156607","Quantity":1}]" |
+- Items: Collection of cart items. Ex: [{"Sku":"90183744","Quantity":1},{"Sku":"90156607","Quantity":1}] |
   |[cart_register_carts](#cart_register_carts)| Register a batch of cart updates. Cart updates are processed according to update time. If multiple cart updates are registered with the same identifier only the latest update (according to update time) is considered.  
 
 
