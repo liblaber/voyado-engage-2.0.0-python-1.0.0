@@ -28,7 +28,7 @@ Example of metaData for a Consent:
 Get all consents definitions
 
 Example of metaData for a Consent:
-
+{
 "metaData": {
 "conditionText": {
 "sv-SE": "Svensk villkorstext",
@@ -43,7 +43,7 @@ Example of metaData for a Consent:
 "en-GB": "English text to show on link"
 }
 }
-
+}
 - HTTP Method: `GET`
 - Endpoint: `/api/v2/consents`
 
