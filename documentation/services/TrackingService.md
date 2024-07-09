@@ -24,7 +24,7 @@ Request model:
 - ContactId: Contact id of the cart owner. GUID or short GUID. Ex: "ae16a9b4-f581-4568-8948-a96100b2afd4"
 - Language: Culture code of the cart. A corresponding product feed should be configured. Ex: "sv-SE"
 - Url: Url to the cart. Ex: "https://www.store.se/cart?id=006788ba-9f65-49c6-b3a0-2315d1854728"
-- Items: Collection of cart items. Ex: "[{"Sku":"90183744","Quantity":1},{"Sku":"90156607","Quantity":1}]" |
+- Items: Collection of cart items. Ex: ```[{"Sku":"90183744","Quantity":1},{"Sku":"90156607","Quantity":1}]``` |
   |[product_view_v_register_product_view](#product_view_v_register_product_view)| Register a view of a specific product for a given contact.
 
 Request model:
@@ -63,7 +63,7 @@ Request model:
 - ContactId: Contact id of the cart owner. GUID or short GUID. Ex: "ae16a9b4-f581-4568-8948-a96100b2afd4"
 - Language: Culture code of the cart. A corresponding product feed should be configured. Ex: "sv-SE"
 - Url: Url to the cart. Ex: "https://www.store.se/cart?id=006788ba-9f65-49c6-b3a0-2315d1854728"
-- Items: Collection of cart items. Ex: "[{"Sku":"90183744","Quantity":1},{"Sku":"90156607","Quantity":1}]"
+- Items: Collection of cart items. Ex: ```[{"Sku":"90183744","Quantity":1},{"Sku":"90156607","Quantity":1}]```
 
 - HTTP Method: `POST`
 - Endpoint: `/api/v2/tracking/carts`
@@ -119,7 +119,7 @@ Request model:
 - ContactId: Contact id of the cart owner. GUID or short GUID. Ex: "ae16a9b4-f581-4568-8948-a96100b2afd4"
 - Language: Culture code of the cart. A corresponding product feed should be configured. Ex: "sv-SE"
 - Url: Url to the cart. Ex: "https://www.store.se/cart?id=006788ba-9f65-49c6-b3a0-2315d1854728"
-- Items: Collection of cart items. Ex: "[{"Sku":"90183744","Quantity":1},{"Sku":"90156607","Quantity":1}]"
+- Items: Collection of cart items. Ex: ```[{"Sku":"90183744","Quantity":1},{"Sku":"90156607","Quantity":1}]```
 
 - HTTP Method: `POST`
 - Endpoint: `/api/v2/tracking/carts/batch`
