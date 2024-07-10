@@ -39,7 +39,7 @@ The language of the returned answer is controlled by the language setting of the
 
 | Name  | Type | Required | Description                                 |
 | :---- | :--- | :------- | :------------------------------------------ |
-| query | str  | ✅       | {fieldId}:{value}, e.g. email:test@test.com |
+| query | str  | ✅       | ```{fieldId}:{value}```, e.g. email:test@test.com |
 
 **Return Type**
 
